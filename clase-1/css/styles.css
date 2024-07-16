@@ -1,0 +1,650 @@
+/** Codigo general **/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.fondoIndex {
+    background-color: #8e8e8e;
+}
+
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nosotrosFondo {
+    background-color: #8e8e8e;
+}
+
+.entrenadoresFondo {
+    background-color: #8e8e8e;
+}
+
+.featuresFondo {
+    background-color: #8e8e8e;
+}
+
+.planesFondo {
+    background-color: #8e8e8e;
+}
+
+* button{
+    padding: 10px;
+    border-radius: 45%;
+    width: 100px;
+    height: 3.125rem;
+    border: none;
+    }
+/**Termina codigo general **/
+
+/** Comienza el codigo de INDEX **/
+.headerIndex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.navBar ul {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    
+}
+.textonavBar {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBar li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoIndex button {
+    background-color: red;
+}
+
+.cuerpoIndex {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(2,200px);
+}
+
+
+.cuerpoIndex .chicoGym {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: end; 
+}
+
+.cuerpoIndex .logoFacebook {
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    object-fit: contain;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoIndex .logoInsta {
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    object-fit: contain;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoIndex .logoLinked {
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    object-fit: contain;
+    grid-column: 3/4;
+    grid-row: 3/4; 
+    justify-self: center;
+    align-self: center;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.cuerpoIndex h1 {
+    display: grid;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start: 1 ;
+    grid-row-end: 2 ;
+    font-size: 40px;
+    line-height: 0.8;
+    justify-self: center;
+    align-self: center;
+    color: white
+}
+.cuerpoIndex span{
+    font-size: 50px ;
+    color: red; 
+}
+
+.cuerpoIndex .botonSumate {
+    display: grid;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.cuerpoIndex .botonFacebook {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: end;
+}
+.cuerpoIndex .botonInsta {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: end;
+}
+.cuerpoIndex .botonLinked {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: end;
+}
+
+.footerIndex {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerIndex .tituloUnoIndex {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerIndex .textoUnoIndex {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footerIndex .tituloDosIndex {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerIndex .textoDosIndex {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.footerIndex .tituloTresIndex {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerIndex .textoTresIndex {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+/** Termina el codigo de INDEX **/
+
+/**Comienza codigo de nosotros.html **/
+
+.headerNosotros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarNosotros ul {
+    display: flex;
+    flex-direction: row;
+}
+.textonavBarNosotros {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarNosotros li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoNosotros {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+}
+
+.cuerpoNosotros .bannerGym {
+    display: grid;
+    width: 45%;
+    height: 30vh;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+}
+
+.cuerpoNosotros h1{
+    font-size: 55px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    color: red;
+}
+
+.cuerpoNosotros .logoActive {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3; 
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoNosotros .parrafoUno {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.cuerpoNosotros .parrafoDos {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    align-self: end;
+    justify-self: end
+}
+
+.cuerpoNosotros .iconoUbicacion {
+    display: grid;
+    width: 30%;
+    height: 15vh;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-self: right;
+    justify-self: right;
+}
+
+.footerNosotros {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerNosotros .tituloUnoNosotros {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerNosotros .textoUnoNosotros {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footerNosotros .tituloDosNosotros {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerNosotros .textoDosNosotros {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.footerNosotros .tituloTresNosotros {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerNosotros .textoTresNosotros {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+/**Termina codigo de nosotros.html**/
+
+/** Comienza codigo de entrenadores.html **/
+
+.headerEntrenadores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuerpoEntrenadores button {
+    background-color: darkgoldenrod;
+}
+.navBarEntrenadores ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarEntrenadores {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarEntrenadores li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoEntrenadores {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+}
+
+.cuerpoEntrenadores .entrenadorFede {
+    display: grid;
+    width: 85%;
+    height: 85vh;
+    object-fit: contain;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .entrenadoraFlor {
+    display: grid;
+    width: 65%;
+    height: 65vh;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .entrenadorAlex {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .cuerpoTituloEntrenadores {
+    display: grid;
+    font-size: 40px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.cuerpoEntrenadores .cuerpoTextoEntrenadores {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.cuerpoEntrenadores button {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.footerEntrenadores {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerEntrenadores .tituloUnoEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerEntrenadores .textoUnoEntrenadores {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footerEntrenadores .tituloDosEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerEntrenadores .textoDosEntrenadores {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.footerEntrenadores .tituloTresEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerEntrenadores .textoTresEntrenadores {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+/** Termina codigo de entrenadores.html**/
+
+/** Comienza codigo de Features.html **/
+.headerFeatures {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarFeatures ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarFeatures {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarFeatures li{
+    display: flex;
+    text-decoration: none;
+}
+
+.footerFeatures {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerFeatures .tituloUnoFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerFeatures .textoUnoFeatures {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footerFeatures .tituloDosFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerFeatures .textoDosFeatures {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.footerFeatures .tituloTresFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerFeatures .textoTresFeatures {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+/** Termina codigo de Features.html **/
+
+/** Comienza codigo de Planes.html **/
+.headerPlanes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarPlanes ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarPlanes {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarPlanes li{
+    display: flex;
+    text-decoration: none;
+}
+
+.footerPlanes {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerPlanes .tituloUnoPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerPlanes .textoUnoPlanes {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footerPlanes .tituloDosPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerPlanes .textoDosPlanes {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.footerPlanes .tituloTresPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerPlanes .textoTresPlanes {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+/** Termina codigo de Planes.html **/
